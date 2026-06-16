@@ -1,0 +1,724 @@
+lesen|to read|
+lese|reading / from lesen|lesen
+
+zeichen|sign / symbol|zeichnen
+zeichnen|to draw / mark|
+lesezeichen|bookmark|lese,zeichen
+kraft|power / force|
+fahr|drive root|fahren
+fahren|to drive|
+kraftfahrzeughaftpflichtversicherung|motor vehicle liability insurance|kraft,fahr,zeug,haft,pflicht,ver,sicher,ung
+kraftfahrzeug|motor vehicle|kraft,fahr,zeug
+fahrzeug|vehicle|fahr,zeug
+zeug|thing / stuff|
+haft|liability|
+pflicht|duty|
+haftpflicht|liability|haft,pflicht
+geschwindigkeitsbegrenzungsschild|speed limit sign|geschwindigkeit,begrenzung, schild, s, schild
+begrenzung|limit|begrenzung
+geschwindigkeit|speed|geschwind,igkeit
+versicherung|insurance|ver,sicher,ung
+sicherheit|security|sicher,heit
+sicher'|safe / secure|
+heit|height|
+grenze|border|
+schild|sign / shield|
+sicherheitsschutz|security protection|sicher,heit,sschutz
+ver|prefix|
+sicher|safe / secure|
+ung|noun-forming suffix|
+krankenhaus|hospital|kranken,haus
+kranken|sick people / inflected form of krank|krank
+krank|sick / ill|
+haus|house|
+staubsaugen|to vacuum|staub, saugen
+staub|dust|
+saugen|to suck|
+arbeitszimmer|A room for studying; a study|arbeit,zimmer
+arbeit|Work|
+zimmer|(n) room|
+arbeitsunfähigkeit|inability to work|arbeit,unfähigkeit
+unfähigkeit|inability|un,fähigkeit
+fähigkeit|ability|fähig,keit
+fähig|capable/able|
+keit|-bility|
+arbeit|work|
+zimmer|room|
+buch|book|
+zeichen|sign / mark / symbol|
+fahren|to drive / go|
+pflicht|duty / obligation|
+haft|liability / responsibility|
+sicher|safe / secure / certain|
+verkehr|traffic / transport / interaction / intercourse|
+geschlecht|sex / gender|
+geschlechtsverkehr|sexual intercourse|geschlecht,verkehr
+mann|man / person|
+schaft|group / collective / state suffix, like English -ship|
+mannschaft|team / squad|
+grenze|border / limit|
+welt|world|
+geld|money|
+kind|child|
+hand|hand|
+kopf|head|
+schmerzen|pain|
+wasser|water|
+nacht|night|
+jahr|year|
+leben|life|
+wissen|knowledge / know|
+wissenschaft|science|wissen,schaft
+schreiben|to write|
+spreche|speech (root)|
+sprechen|to speak|
+feuer|fire|
+sauger|sucker / sucking device|saugen
+werk|work / factory|
+werkzeug|tool|werk,zeug
+verkehr|traffic / transport / interaction|
+flug|flight|
+flugzeug|airplane|flug,zeug
+luft|air|
+luftverkehr|air traffic|luft,verkehr
+bahn|railway / rail|
+zug|train|
+reise|journey / trip|
+reisen|to travel|
+weg|path / way|
+straße|street / road|
+hafen|harbor / port|
+bahnhof|train station|bahn,hof
+hof|yard / court|
+amt|office / agency|
+behörde|authority / government agency|
+verwaltung|administration|
+gesetz|law|
+ordnung|order / regulation|
+verordnung|regulation|ver,ordnung
+bund|federation / federal government|
+staat|state / country|
+ministerium|ministry|
+steuer|tax|
+gericht|court|
+richter|judge|richten
+richten|to direct / judge|
+polizei|police|
+formular|form|
+antrag|application / request|
+erklärung|declaration / statement|
+bescheinigung|certificate|
+meldung|notification / report|
+bericht|report|
+protokoll|record / log|
+vertrag|contract|
+ausweis|identification card|
+pass|passport|
+urkunde|official document / certificate|
+liste|list|
+recht|law / right|
+schutz|protection|
+rechtsschutz|legal protection|recht,schutz
+regel|rule|
+vorschrift|regulation / prescription|
+verbot|prohibition|
+erlaubnis|permission|
+sicherheit|security / safety|sicher,heit
+verantwortung|responsibility|ver,antwort,ung
+antwort|answer / response|
+be|prefix; often makes verb transitive|
+ver|prefix; often changes or intensifies meaning|
+ent|prefix; removal / away from|
+er|prefix; completion / achievement|
+zer|prefix; apart / destruction|
+aus|out / outward|
+ein|in / into|
+auf|up / open|
+mit|with|
+vor|before / in front of|
+nach|after / toward|
+über|over / above|
+unter|under / below|
+um|around / surrounding|
+wieder|again|
+heit|-hood / -ness|
+keit|-ness|
+schaft|group / state / collective|
+bar|-able|
+los|-less|
+lich|-like / -ly|
+isch|-ish|
+er|person who performs action|
+in|female person suffix|
+feuerwerk|(n) fireworks|
+feuerwerk|firework(s)|feuer,werk
+verteilen|To distribute|ver,teilen
+teilen|to divide/share|teil
+teil|(n) part/portion|
+verstehen|to understand|ver,stehen
+stehen|to stand|
+zerbrechen|to break (up)|zer,brechen
+brechen|to break|
+verkaufen|to sell|ver,kaufen
+kaufen|to buy|
+bezahlen|to pay (for)|be,zahlen
+zahlen|to pay|
+entdecken|to discover|ent,decken
+decken|to cover|
+aufstehen|to stand up|auf,stehen
+setzen|to set/put/place|
+übersetzen|to translate|über,setzen
+einsetzen|to implement/move/convert|ein,setzen
+bildschirm|(n) screen, monitor|bild,schirm
+bild|image/picture (n)|
+schirm|screen/shield/protective cover (n)|
+regenschirm|(n) umbrella|regen,schirm
+regen|rain|
+sonnenschirm|sun umbrella; parasol (n)|sonne,n,schirm
+sonne|sun|
+bildung|(n) education|bild,ung
+abbildung|illutration|ab,bild,ung
+2|zwei|
+ab|off/away/down/from|
+nehmen|to take|
+abnehmen|to remove/lost weight|ab,nehmen
+abfahrt|(n) departure|ab,fahrt
+fahrt|journey/trip|
+fangen|to start|
+an|on/at/toward|
+kommen|to come|
+schauen|to look at|
+machen|to make/do/have/cause/produce|
+bauen|to build|
+gehen|to go|
+packen|to pack|
+schalten|to switch|
+zahlen|to count|
+geben|to give|
+übergeben|to throw up; vomit|über,geben
+auskommen|to come from (original country, region, city,...)|aus,kommen
+ankommen|to arrive|an,kommen
+zerlegen|to take apart, dismantle|zer,legen
+legen|to lay,place|
+wörter|words (n. pl)|wort,er
+wort|word (n)|
+leger|one who places/lays/puts|
+gedichte|poems|gedicht
+gedicht|poem (singular)|ge,dicht
+ge|common German prefix; often forms past participles and nouns|
+dicht|dense / tight / compact|
+gesicht|face (n)|ge,sicht
+sicht|sight/view/perspective|
+hauptfigur|main character|haupt,figur
+haupt|main|
+figur|character, persona-person|
+uber|over, about|
+ubersetzen|translate|uber,über,setzen
+schlag|hit, impact|
+stadt|city|
+alt|old|
+schwanz|cock, tail, trunk|
+e/en|plural suffix|
+schlecht|bad|
+ig|connector|
+süß|sweet|
+süßigkeit|candy|süß,ig,keit
+schwanger|pregnant|
+schängern|to impregnate|schwang,schwanz
+durchfall|diarrhea|durch,fall
+durch|through|
+fall|to fall|
+schnit|cut|
+bekannt|well-known|be,kannt
+kannt|past part of kennen ("have learned")|
+un|not|
+sprach|language; speaking|
+natur|nature|
+gesicht|history/story|ge,sicht
+e|linker or plural suffix|
+fledermaus|bat|fleder,maus
+maus|mouse|
+fleder|flutter|
+ficken|to fuck|fick,e,en
+en|linker, plural suffix, unconjugated verb ending|
+abend|evening|
+essen|eat, food|ess,en
+ess|food-eat...|
+nachmittag|afternoon|nach,mit,tag
+tag|day|
+ausgezeichnet|excellent|aus,ge,zeichnen
+zeichnet|distinguish|zeichnen
+gegenüber|directly across|gegen,über
+gegen|direct from, against|
+dagegen|against it|da,gegen
+deshalb|therefore|des,halb
+halb|half|
+des|of the|
+# ----- prefixes (atomic -- list once, reused by many verbs) -----
+an|separable prefix: on / toward / at|
+auf|separable prefix: up / open|
+aus|separable prefix: out / outward|
+ab|separable prefix: off / away / down|
+ein|separable prefix: in / into|
+mit|separable prefix: with / along|
+nach|separable prefix: after / toward|
+vor|separable prefix: before / in front of|
+zu|separable prefix: to / closed|
+zurück|separable prefix: back / return|
+weiter|separable prefix: onward / continuing|
+los|separable prefix: loose / away / starting|
+fest|separable prefix: firm / fixed|
+hin|separable prefix: toward (away from speaker)|
+her|separable prefix: toward (toward speaker)|
+rein|separable prefix: in / inside (colloquial)|
+raus|separable prefix: out (colloquial)|
+# ----- base verbs (roots) -----
+rufen|to call / shout|
+fangen|to catch / start|
+machen|to make / do|
+setzen|to set / place|
+legen|to lay / put|
+bringen|to bring|
+fahren|to drive / travel|
+laufen|to run / walk|
+hören|to hear / listen|
+sehen|to see|
+schauen|to look|
+arbeiten|to work|
+denken|to think|
+fallen|to fall|
+steigen|to climb / rise|
+ziehen|to pull / move|
+drücken|to press / push|
+halten|to hold / stop|
+stellen|to place / put upright|
+packen|to pack / grab|
+laden|to load / invite|
+schließen|to close / conclude|
+öffnen|to open|
+warten|to wait|
+räumen|to clear / vacate|
+räumt|clears (conjugated)|
+schlage|beat / hit (root form)|
+schlagen|to beat / hit|
+# ----- separable verbs -----
+anrufen|to call (phone)|an,rufen
+anfangen|to begin / start|an,fangen
+anmachen|to turn on / switch on|an,machen
+annehmen|to accept / assume|an,nehmen
+anschauen|to look at / watch|an,schauen
+anziehen|to put on (clothes) / attract|an,ziehen
+anhalten|to stop / hold on|an,halten
+anstellen|to hire / switch on|an,stellen
+anladen|to load onto|an,laden
+aufmachen|to open|auf,machen
+aufstehen|to stand up / get up|auf,stehen
+aufhören|to stop / quit|auf,hören
+aufnehmen|to pick up / record|auf,nehmen
+aufräumen|to tidy up|auf,räumen
+aufschreiben|to write down|auf,schreiben
+aufgeben|to give up / hand in|auf,geben
+aufhalten|to stop / delay|auf,halten
+aufladen|to charge (battery) / load up|auf,laden
+ausmachen|to turn off / arrange|aus,machen
+ausgehen|to go out|aus,gehen
+aussehen|to look / appear|aus,sehen
+ausziehen|to take off (clothes) / move out|aus,ziehen
+ausdrücken|to express / squeeze out|aus,drücken
+aussteigen|to get out / exit (vehicle)|aus,steigen
+abfahren|to depart (vehicle)|ab,fahren
+abgeben|to hand in / give away|ab,geben
+abholen|to pick up (person/thing)|ab,holen
+abnehmen|to lose weight / take off|ab,nehmen
+abschreiben|to copy / write off|ab,schreiben
+abschalten|to switch off|ab,schalten
+abhalten|to hold off / prevent|ab,halten
+einladen|to invite / load in|ein,laden
+einkaufen|to go shopping|ein,kaufen
+einschlafen|to fall asleep|ein,schlafen
+einsteigen|to get in / board (vehicle)|ein,steigen
+einschalten|to switch on|ein,schalten
+einziehen|to move in / collect|ein,ziehen
+eingeben|to enter / input|ein,geben
+mitgehen|to come along|mit,gehen
+mitnehmen|to take along|mit,nehmen
+mitmachen|to join in / participate|mit,machen
+mitbringen|to bring along|mit,bringen
+nachdenken|to think about / reflect|nach,denken
+nachschauen|to look up / check|nach,schauen
+nachkommen|to come later / follow|nach,kommen
+vorbereiten|to prepare|vor,bereiten
+vorhaben|to plan / intend|vor,haben
+vorstellen|to introduce / imagine|vor,stellen
+vorkommen|to occur / seem|vor,kommen
+vorfahren|to drive up / go ahead|vor,fahren
+zumachen|to close / shut|zu,machen
+zuhören|to listen (to)|zu,hören
+zunehmen|to increase / gain weight|zu,nehmen
+zusteigen|to get on (vehicle later)|zu,steigen
+zurückkommen|to come back / return|zurück,kommen
+zurückgehen|to go back|zurück,gehen
+zurückfahren|to drive back|zurück,fahren
+zurückbringen|to bring back|zurück,bringen
+weitergehen|to continue / keep going|weiter,gehen
+weitermachen|to continue / carry on|weiter,machen
+losfahren|to set off / drive away|los,fahren
+losgehen|to set off / start|los,gehen
+loslassen|to let go|los,lassen
+festhalten|to hold on / hold tight|fest,halten
+festlegen|to set / determine|fest,legen
+hinsetzen|to sit down|hin,setzen
+hinlegen|to lay down|hin,legen
+hinstellen|to put down (upright)|hin,stellen
+hinkommen|to get there|hin,kommen
+herkommen|to come here / originate|her,kommen
+# ----- prefixes used above that might not be in dict yet -----
+holen|to fetch / get|
+bereiten|to prepare (root)|
+haben|to have|
+lassen|to let / leave|
+schlafen|to sleep|
+wort|word|
+sprache|language|
+schrift|writing / script|
+bild|image / picture|
+stelle|place / position|
+zeit|time|
+punkt|point|
+bereich|area / field|
+system|system|
+form|form / shape|
+art|kind / type|
+fall|case / occurrence|
+stand|state / status|
+weg|way / path|
+grund|reason / ground|
+tart|thing / object|
+wirkung|effect / action|
+ungleich|opposite|
+gegen|against|
+wissen|knowledge|
+wissensschutz|knowledge protection|
+wissenschaft|science|
+wissenschaftler|scientist|
+wissenschaftliche|scientific|
+forsch|research|
+forschung|research|
+forschungsprojekt|research project|
+forschungsprojekte|research projects|
+schung|school|
+schule|school|
+schulen|schools|
+schullehrer|teacher|
+lehrer|teacher|
+in|female suffixed|
+landeshauptstadt|capital city|
+land|country|
+landkreis|county|
+landeskreis|county|
+krieg|war|
+kriegswagen|war car|
+kriegsgeschichte|war history|
+blitz|lightning|
+blitzschlag|lightning strike|
+krankenschwester|nurse|
+krankenhaus|hospital|
+krankenhausgeld|hospital wages|
+krankenhausleistung|hospital wages|
+krankenhausleistungen|hospital wages|
+krankenhausleistungssatz|hospital wages rate|
+zeitpunkt|time point|
+zeit|time|
+punkt|point|
+reich|kingdom|
+reichsrecht|kingdom law|
+reichstadt|kingdom capital|
+kopf|head|
+kopfgeld|head wages|
+kopfgeldssatz|head wages rate|
+hals|throat|
+arm|arm|
+schwanz|leg|
+schwanzgeld|leg wages|
+schwanzgeldssatz|leg wages rate|
+bein|chest|
+beine|chest|
+beingeld|chest wages|
+beingeldssatz|chest wages rate|
+knochen|stomach|
+knochengeld|stomach wages|
+fuß|foot|
+fußgeld|foot wages|
+fußball|football|
+hand|hand|
+wurzel|root|
+wurzeln|roots|
+wurzelnachweis|root certification|
+endlich|finally|
+unvergisslich|unforgettable|
+vergisslich|forgettable|
+vergisslichkeit|forgetfulness|
+kopfkissen|pillows|
+schlafkissen|bedsheets|
+schlafkissengeld|bedsheet wages|
+schlafkissengeldssatz|bedsheet wages rate|
+schleppen|pull, push|
+abschleppen|tow|
+schlafen|sleep|
+trinken|drink|
+trinkengeld|tips|
+trinkengeldssatz|tips rate|
+trinkenmangel|drink deficit|
+trinkenmangelssatz|drink deficit rate|
+mangel|deficit|
+mangelssatz|deficit rate|
+bereich|area|
+schlaf|sleep|
+schlafgeld|sleep wages|
+schlafgeldssatz|sleep wages rate|
+schlafmangel|sleep deficit|
+wissenschaftlicheforschungsprojekte|scientific research projects|
+wissenschaftliche forschungsprojekte in der region|scientific research projects in the region|
+wissenschaftliche forschungsprojekte in der region in der schweiz|scientific research projects in the region in Switzerland|
+eins|one|
+zwei|two|
+drei|three|
+vier|four|
+fünf|five|
+sechs|six|
+sieben|seven|
+acht|eight|
+neun|nine|
+zehn|ten|
+wortschatz|vocabulary|
+sprache|language|
+schrift|writing / script|
+sprachwissenschaft|language science, linguistics|
+schriftschnitt|writing system|
+arm|arm|
+bein|leg|
+fuß|foot|
+auge|eye|
+ohr|ear|
+mund|mouth|
+zahn|tooth|
+herz|heart|
+finger|finger|
+haut|skin|
+rücken|back|
+bauch|stomach|
+knochen|stomach|
+hirn|brain|
+gehirn|brain|
+gehirnkennzeichnung|brain tissue|
+kennzeichnung|tissue|
+finger|finger|
+schwanz|leg|
+scull|skull|
+berg|mountain|
+tal|valley|
+wald|forest|
+baum|tree|
+blume|flower|
+stein|stone|
+meer|sea|
+fluss|river|
+himmel|sky|
+erde|earth|
+wind|wind|
+schnee|snow|
+sonne|sun|
+wolke|cloud|
+wind|wind|
+himmel|sky|
+erde|earth|
+luft|air|
+regen|rain|
+winter|winter|
+herbst|summer|
+sommer|autumn|
+frühling|spring|
+nachmittag|afternoon|
+vormittag|morning|
+morgen|morning, tomorrow|
+heute|today|
+gestern|yesterday|
+vorgestern|day before yesterday|
+monaten|months|
+jahre|years|
+tag|day|
+woche|week|
+monat|month|
+jahr|year|
+groß|big|
+klein|small|
+lang|long|
+kurz|short|
+hoch|high|
+tief|deep|
+stark|strong|
+schwach|weak|
+hell|bright|
+dunkel|dark|
+tote|killed|
+tot|dead|
+verstorben|dead|
+sterben|to die|
+storbenheit|death|
+verstorbenheit|death|
+verrückt|crazy|
+schrecklich|terrible|
+schlecht|bad|
+schlechtem|bad, worst|
+schlechte|bad, worst|
+schlechter|worse|
+schlechtesten|worst|
+besser|better|
+besserung|improvement|
+haupt|main|
+neben|side / secondary|
+ober|upper|
+unter|lower|
+innen|inner|
+außen|outer|
+selbst|self|
+frei|free|
+voll|full|
+leer|empty|
+kein|no|
+keine|none|
+mehr|more|
+weniger|less|
+gleich|same, equal|
+vergleichbar|comparable|
+nachbar|neighbor|
+nachbarn|neighbors|
+nachbargemeinde|neighborhood|
+nachbargemeinden|neighborhoods|
+nachbargemeinschaft|neighborhood association|
+gemeinschaft|community|
+gemeinsen|to share|
+gemeinschaften|communities|
+wohnung|apartment|
+mitbewohner|roommates|
+leben|life|
+lebenszeit|life span|
+lebensdauer|life span|
+einfach|easy, simple|
+schnell|fast|
+schwer|hard|
+schlimm|dangerous|
+gefahr|danger|
+gefahrlos|safe|
+fort|away/onward|
+fortgesetzt|continued|
+fortsetzen|continue|
+vor|before|
+ur|primative|
+nach|after|
+auf|on|
+neben|side / secondary|
+bei|(dative preposition)|
+von|(dative preposition)|
+für|(accusative preposition)|
+zum|(dative contracted preposition)|
+ins|(accusative contracted preposition)|
+am|(dative contracted preposition)|
+zur|(dative contracted preposition)|
+an|dative preposition|
+in|accusative preposition|
+auf|dative preposition|
+zum|accusative contracted preposition|
+ins|dative contracted preposition|
+vom|dative contracted preposition|
+darauf|thereupon|
+dort|there|
+davon|of it|
+daraus|from it, thereof|
+scheiße|shit|
+scheißwetter|shit-weather|
+schweinefleisch|pig meat|
+kacken|to poop|
+schnuppermitgliedschaft|trial membership|
+schnuppermitglied|trial member|
+schnuppermitglieder|trial members|
+schnuppermitgliederin|trial member, female|
+schnuppermitgliederinnen|trial members, female|
+mitglied|member|
+mitgliedschaft|membership|
+ausgezeichnet|excellent|
+zeichnet|distinguished|
+ausgewählen|select|
+gewählt|selected|
+wählen|select|
+erwählung|election|
+landstag|state legislature|
+bundestag|federal legislature|
+bundestagswahl|federal election|
+bundestagswahlen|federal elections|
+abzustimmen|vote|
+abstimmen|vote|
+abstimmung|election|
+abstimmungswahl|election|
+abstimmungswahlen|elections|
+abstimmungswahlverfahren|election procedure|
+abstimmungswahlenverfahren|election procedures|
+neuwahl|new election|
+regierung|government|
+regierungsvertrag|government contract|
+vertrag|contract|
+vergleich|comparison|
+vergleichswert|comparison value|
+vergleichswertung|comparison rating|
+anmelden|register|
+anmeldung|registration|
+vorschlag|proposal|
+schluss|conclusion|
+schlusswahl|conclusion election|
+anfang|beginning|
+fang|start|
+einverstanden|agreed, understood|
+einverstandenheit|agreement|
+finden|to find|
+suchen|to search|
+zeigen|to show|
+tragen|to carry / wear|
+halten|to hold|
+werfen|to throw|
+denken|to think|
+glauben|to believe|
+kennen|to know (person/familiarity)|
+lernen|to learn|
+da|there / it / that thing|
+davon|of it / from it|da,vor
+dafür|for it / for that|da,für
+dabei|with it / meanwhile|da,bei
+daran|on it / about it|da,an
+darauf|on it / onto it|da,auf
+darunter|under it|da,unter
+darüber|over it / about it|da,über
+dagegen|against it|da,gegen
+damit|with it / thereby|da,mit
+danach|after it / afterwards|da,nach
+davor|before it / in front of it|da,vor
+dazu|to it / in addition|da,zu
+darin|in it|da,in
+durch|through|
+dadurch|through it / thereby|da,durch
+worum|about what|
+welche|what|
+wo|where|
+woran|what/about which|wo,an
+worauf|what/on which|wo,auf
+worüber|what/about which|wo,über
+womit|with what|wo,mit
+wofür|for what|wo,für
+wovon|of what / from what|wo,von
+worin|in what|wo,in
+wodurch|through what|wo,durch
+zusammen|together|
+zusammengefasst|summarized|
+zusammengefasste|summarized|
+wissendatenbank|knowledge database|wissen,daten,bank
+daten|data|
+gesund|health|
