@@ -1,0 +1,166 @@
+# atomic pieces first
+an|separable prefix: on / toward / at|
+rufen|to call / shout|
+
+# then the compound
+anrufen|to call (phone)|an,rufen
+You don't have to list every subpart separately — any missing ones just get stubs. But listing them explicitly means you get proper tree output immediately.
+
+
+
+# Format: word|meaning|subpart1,subpart2,...
+#
+# Workflow:
+#   1. List atomic roots and prefixes first (no subparts needed if trivial).
+#   2. List the compound verb referencing those parts.
+#   3. Import with option 3 (skip) or 4 (overwrite).
+#
+# You can paste in bulk lists from sites like verbformen.com or
+# canoo.net and reformat them to this pipe-delimited layout.
+#
+# ----- prefixes (atomic -- list once, reused by many verbs) -----
+an|separable prefix: on / toward / at|
+auf|separable prefix: up / open|
+aus|separable prefix: out / outward|
+ab|separable prefix: off / away / down|
+ein|separable prefix: in / into|
+mit|separable prefix: with / along|
+nach|separable prefix: after / toward|
+vor|separable prefix: before / in front of|
+zu|separable prefix: to / closed|
+zurück|separable prefix: back / return|
+weiter|separable prefix: onward / continuing|
+los|separable prefix: loose / away / starting|
+fest|separable prefix: firm / fixed|
+hin|separable prefix: toward (away from speaker)|
+her|separable prefix: toward (toward speaker)|
+rein|separable prefix: in / inside (colloquial)|
+raus|separable prefix: out (colloquial)|
+
+# ----- base verbs (roots) -----
+rufen|to call / shout|
+fangen|to catch / start|
+machen|to make / do|
+nehmen|to take|
+kommen|to come|
+gehen|to go|
+stehen|to stand|
+setzen|to set / place|
+legen|to lay / put|
+bringen|to bring|
+fahren|to drive / travel|
+laufen|to run / walk|
+hören|to hear / listen|
+sehen|to see|
+schauen|to look|
+schreiben|to write|
+lesen|to read|
+sprechen|to speak|
+kaufen|to buy|
+zahlen|to pay|
+arbeiten|to work|
+denken|to think|
+fallen|to fall|
+steigen|to climb / rise|
+ziehen|to pull / move|
+drücken|to press / push|
+schalten|to switch|
+halten|to hold / stop|
+stellen|to place / put upright|
+packen|to pack / grab|
+laden|to load / invite|
+geben|to give|
+schließen|to close / conclude|
+öffnen|to open|
+warten|to wait|
+räumen|to clear / vacate|
+räumt|clears (conjugated)|
+schlage|beat / hit (root form)|
+schlagen|to beat / hit|
+# ----- separable verbs -----
+anrufen|to call (phone)|an,rufen
+anfangen|to begin / start|an,fangen
+anmachen|to turn on / switch on|an,machen
+annehmen|to accept / assume|an,nehmen
+ankommen|to arrive|an,kommen
+anschauen|to look at / watch|an,schauen
+anziehen|to put on (clothes) / attract|an,ziehen
+anhalten|to stop / hold on|an,halten
+anstellen|to hire / switch on|an,stellen
+anladen|to load onto|an,laden
+aufmachen|to open|auf,machen
+aufstehen|to stand up / get up|auf,stehen
+aufhören|to stop / quit|auf,hören
+aufnehmen|to pick up / record|auf,nehmen
+aufräumen|to tidy up|auf,räumen
+aufschreiben|to write down|auf,schreiben
+aufgeben|to give up / hand in|auf,geben
+aufhalten|to stop / delay|auf,halten
+aufladen|to charge (battery) / load up|auf,laden
+ausmachen|to turn off / arrange|aus,machen
+ausgehen|to go out|aus,gehen
+aussehen|to look / appear|aus,sehen
+ausziehen|to take off (clothes) / move out|aus,ziehen
+ausdrücken|to express / squeeze out|aus,drücken
+aussteigen|to get out / exit (vehicle)|aus,steigen
+abfahren|to depart (vehicle)|ab,fahren
+abgeben|to hand in / give away|ab,geben
+abholen|to pick up (person/thing)|ab,holen
+abnehmen|to lose weight / take off|ab,nehmen
+abschreiben|to copy / write off|ab,schreiben
+abschalten|to switch off|ab,schalten
+abhalten|to hold off / prevent|ab,halten
+einladen|to invite / load in|ein,laden
+einkaufen|to go shopping|ein,kaufen
+einschlafen|to fall asleep|ein,schlafen
+einsteigen|to get in / board (vehicle)|ein,steigen
+einschalten|to switch on|ein,schalten
+einziehen|to move in / collect|ein,ziehen
+eingeben|to enter / input|ein,geben
+mitgehen|to come along|mit,gehen
+mitnehmen|to take along|mit,nehmen
+mitmachen|to join in / participate|mit,machen
+mitbringen|to bring along|mit,bringen
+nachdenken|to think about / reflect|nach,denken
+nachschauen|to look up / check|nach,schauen
+nachkommen|to come later / follow|nach,kommen
+vorbereiten|to prepare|vor,bereiten
+vorhaben|to plan / intend|vor,haben
+vorstellen|to introduce / imagine|vor,stellen
+vorkommen|to occur / seem|vor,kommen
+vorfahren|to drive up / go ahead|vor,fahren
+zumachen|to close / shut|zu,machen
+zuhören|to listen (to)|zu,hören
+zunehmen|to increase / gain weight|zu,nehmen
+zusteigen|to get on (vehicle later)|zu,steigen
+zurückkommen|to come back / return|zurück,kommen
+zurückgehen|to go back|zurück,gehen
+zurückfahren|to drive back|zurück,fahren
+zurückbringen|to bring back|zurück,bringen
+weitergehen|to continue / keep going|weiter,gehen
+weitermachen|to continue / carry on|weiter,machen
+losfahren|to set off / drive away|los,fahren
+losgehen|to set off / start|los,gehen
+loslassen|to let go|los,lassen
+festhalten|to hold on / hold tight|fest,halten
+festlegen|to set / determine|fest,legen
+hinsetzen|to sit down|hin,setzen
+hinlegen|to lay down|hin,legen
+hinstellen|to put down (upright)|hin,stellen
+hinkommen|to get there|hin,kommen
+herkommen|to come here / originate|her,kommen
+# ----- prefixes used above that might not be in dict yet -----
+holen|to fetch / get|
+bereiten|to prepare (root)|
+haben|to have|
+lassen|to let / leave|
+schlafen|to sleep|
+
+
+
+
+
+
+
+
+
