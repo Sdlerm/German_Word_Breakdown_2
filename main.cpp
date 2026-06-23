@@ -10,360 +10,190 @@ using namespace std;
 
 struct Entry {
     string meaning;
-    vector<string> subparts;
+    vector<string> parts;
 };
 
-unordered_map<string, Entry> dict;
-const string DICTIONARY_FILE = "dictionary.txt";
+unordered_map<string, Entry> dictionary;
+const string FILE_NAME = "dictionary.txt";
 
+// Remove spaces from the start and end of a string
 string trim(string s) {
     while (!s.empty() && isspace(static_cast<unsigned char>(s.front()))) {
         s.erase(s.begin());
     }
-
     while (!s.empty() && isspace(static_cast<unsigned char>(s.back()))) {
         s.pop_back();
     }
-
     return s;
 }
 
-string lowerCase(string s) {
+// Convert text to lowercase
+string lower(string s) {
     for (char& c : s) {
         c = static_cast<char>(tolower(static_cast<unsigned char>(c)));
     }
     return s;
 }
 
-vector<string> splitString(const string& line, char delimiter) {
-    vector<string> result;
+// Split a string by a delimiter
+vector<string> split(const string& s, char delimiter) {
+    vector<string> items;
     string item;
-    stringstream ss(line);
+    stringstream ss(s);
 
     while (getline(ss, item, delimiter)) {
-        result.push_back(trim(item));
-    }
-
-    return result;
-}
-
-vector<string> splitCSV(const string& line) {
-    vector<string> rawParts = splitString(line, ',');
-    vector<string> result;
-
-    for (const string& part : rawParts) {
-        string cleaned = lowerCase(trim(part));
-
-        if (!cleaned.empty()) {
-            result.push_back(cleaned);
+        item = trim(item);
+        if (!item.empty()) {
+            items.push_back(item);
         }
     }
 
-    return result;
+    return items;
 }
 
-string joinCSV(const vector<string>& items) {
-    string result;
-
-    for (size_t i = 0; i < items.size(); ++i) {
-        result += items[i];
-
+// Join a list of strings with commas
+string join(const vector<string>& items) {
+    string out;
+    for (size_t i = 0; i < items.size(); i++) {
+        out += items[i];
         if (i + 1 < items.size()) {
-            result += ',';
+            out += ',';
         }
     }
-
-    return result;
+    return out;
 }
 
-void addBuiltInFallbackEntries() {
-    dict["s"] = {"linking element", {}};
-    dict["es"] = {"linking element", {}};
-    dict["n"] = {"linking element", {}};
-    dict["en"] = {"linking element", {}};
-    dict["er"] = {"linking element", {}};
-    dict["e"] = {"linking element", {}};
+// Add a few built-in words so the program can work right away
+void addBuiltInWords() {
+    dictionary["mann"] = {"man", {}};
+    dictionary["schaft"] = {"group", {}};
+    dictionary["mannschaft"] = {"team", {"mann", "schaft"}};
 
-    dict["lesezeichen"] = {"bookmark", {"lese", "zeichen"}};
-    dict["lese"] = {"reading / from lesen", {"lesen"}};
-    dict["lesen"] = {"to read", {}};
-    dict["zeichen"] = {"sign / mark / symbol", {"zeichnen"}};
-    dict["zeichnen"] = {"to draw / mark", {}};
-
-    dict["geschlechtsverkehr"] = {
-        "sexual intercourse",
-        {"geschlecht", "s", "verkehr"}
-    };
-    dict["geschlecht"] = {"sex / gender", {}};
-    dict["verkehr"] = {"traffic / transport / interaction / intercourse", {}};
-
-    dict["mannschaft"] = {"team / crew", {"mann", "schaft"}};
-    dict["mann"] = {"man / person", {}};
-    dict["schaft"] = {
-        "group / collective / state suffix, like English -ship",
-        {}
-    };
-
-    dict["kraftfahrzeughaftpflichtversicherung"] = {
-        "motor vehicle liability insurance",
-        {"kraftfahrzeug", "haftpflicht", "versicherung"}
-    };
-    dict["kraftfahrzeug"] = {"motor vehicle", {"kraft", "fahrzeug"}};
-    dict["kraft"] = {"power / force", {}};
-    dict["fahrzeug"] = {"vehicle", {"fahr", "zeug"}};
-    dict["fahr"] = {"drive/travel root", {"fahren"}};
-    dict["fahren"] = {"to drive / go", {}};
-    dict["zeug"] = {"thing / stuff", {}};
-
-    dict["haftpflicht"] = {"liability", {"haft", "pflicht"}};
-    dict["haft"] = {"liability / responsibility", {}};
-    dict["pflicht"] = {"duty / obligation", {}};
-
-    dict["versicherung"] = {"insurance", {"ver", "sicher", "ung"}};
-    dict["ver"] = {"prefix; often changes/intensifies meaning", {}};
-    dict["sicher"] = {"safe / secure / certain", {}};
-    dict["ung"] = {"noun-forming suffix", {}};
-
-    dict["geschwindigkeitsbegrenzungsschild"] = {
-        "speed limit sign",
-        {"geschwindigkeit", "s", "begrenzung", "s", "schild"}
-    };
-    dict["geschwindigkeit"] = {"speed", {"geschwind", "igkeit"}};
-    dict["geschwind"] = {"swift / quick", {}};
-    dict["igkeit"] = {"-ness suffix", {}};
-    dict["begrenzung"] = {"limitation", {"be", "grenze", "ung"}};
-    dict["be"] = {"prefix; often makes a verb transitive", {}};
-    dict["grenze"] = {"border / limit", {}};
-    dict["schild"] = {"sign / shield", {}};
+    dictionary["lesen"] = {"to read", {}};
+    dictionary["lesezeichen"] = {"bookmark", {"lesen", "zeichen"}};
+    dictionary["zeichen"] = {"sign", {}};
 }
 
+// Load dictionary data from file
 bool loadDictionary(const string& filename) {
     ifstream file(filename);
-
     if (!file) {
         return false;
     }
 
     string line;
-    int lineNumber = 0;
-
     while (getline(file, line)) {
-        ++lineNumber;
         line = trim(line);
-
         if (line.empty() || line[0] == '#') {
             continue;
         }
 
-        vector<string> fields = splitString(line, '|');
-
+        vector<string> fields = split(line, '|');
         if (fields.size() < 2) {
-            cerr << "Skipping malformed line "
-                 << lineNumber << ": " << line << '\n';
             continue;
         }
 
-        string word = lowerCase(trim(fields[0]));
+        string word = lower(trim(fields[0]));
         string meaning = trim(fields[1]);
-        vector<string> subparts;
+        vector<string> parts;
 
         if (fields.size() >= 3) {
-            subparts = splitCSV(fields[2]);
+            parts = split(fields[2], ',');
+            for (string& part : parts) {
+                part = lower(part);
+            }
         }
 
-        if (!word.empty()) {
-            dict[word] = {meaning, subparts};
-        }
+        dictionary[word] = {meaning, parts};
     }
 
     return true;
 }
 
-bool saveEntryToFile(const string& filename, const string& word) {
-    auto it = dict.find(word);
-
-    if (it == dict.end()) {
-        return false;
-    }
-
-    ofstream file(filename, ios::app);
-
+// Save one word to the file
+void saveEntry(const Entry& e) {
+    ofstream file(FILE_NAME, ios::app);
     if (!file) {
-        cerr << "Could not write to " << filename << '\n';
-        return false;
-    }
-
-    file << word << '|'
-         << it->second.meaning << '|'
-         << joinCSV(it->second.subparts)
-         << '\n';
-
-    return true;
-}
-
-void createStarterDictionaryFile(const string& filename) {
-    ofstream file(filename);
-
-    if (!file) {
-        cerr << "Could not create " << filename << '\n';
         return;
     }
 
-    file << "# Format: word|meaning|subpart1,subpart2,subpart3\n";
-    file << "# Subparts should be only words, not definitions.\n";
-    file << "# Example: geschlechtsverkehr|sexual intercourse|geschlecht,s,verkehr\n";
-
-    for (const auto& pair : dict) {
-        file << pair.first << '|'
-             << pair.second.meaning << '|'
-             << joinCSV(pair.second.subparts)
-             << '\n';
-    }
+    file << e.word << '|' << e.meaning << '|' << join(e.parts) << '\n';
 }
 
-void printTree(const string& word, int depth = 0) {
-    string indent(depth * 2, ' ');
+// Print a word and its parts
+void printWord(const string& word, int depth = 0) {
+    for (int i = 0; i < depth; i++) {
+        cout << "  ";
+    }
 
-    auto it = dict.find(word);
-
-    if (it == dict.end()) {
-        cout << indent << "- " << word << " = unknown\n";
+    auto it = dictionary.find(word);
+    if (it == dictionary.end()) {
+        cout << "- " << word << " = unknown\n";
         return;
     }
 
-    cout << indent << "- " << word << " = "
-         << it->second.meaning << '\n';
-
-    for (const string& sub : it->second.subparts) {
-        printTree(sub, depth + 1);
+    cout << "- " << word << " = " << it->second.meaning << '\n';
+    for (const string& part : it->second.parts) {
+        printWord(part, depth + 1);
     }
 }
 
-vector<string> splitUnknownCompound(const string& word) {
-    vector<string> parts;
-    size_t i = 0;
-
-    while (i < word.size()) {
-        string best;
-
-        for (size_t len = word.size() - i; len >= 1; --len) {
-            string piece = word.substr(i, len);
-
-            if (dict.count(piece)) {
-                best = piece;
-                break;
-            }
-
-            if (len == 1) {
-                break;
-            }
-        }
-
-        if (!best.empty()) {
-            parts.push_back(best);
-            i += best.size();
-        }
-        else {
-            parts.push_back(string(1, word[i]));
-            ++i;
-        }
-    }
-
-    return parts;
-}
-
+// Ask the user for a word and show the breakdown
 void analyzeWord() {
     string input;
-
-    cout << "German word to analyze: ";
+    cout << "German word: ";
     getline(cin, input);
+    input = lower(trim(input));
 
-    input = lowerCase(trim(input));
-
-    cout << "\n=== Breakdown ===\n";
-
-    if (dict.count(input)) {
-        printTree(input);
-    }
-    else {
-        cout << "- " << input << " = unknown full compound\n";
-
-        vector<string> parts = splitUnknownCompound(input);
-
-        for (const string& part : parts) {
-            printTree(part, 1);
-        }
-    }
-
-    cout << '\n';
+    printWord(input);
 }
 
+// Add a new entry
 void addEntry() {
-    string word;
-    string meaning;
-    string subpartLine;
+    Entry e;
+    string partsLine;
 
     cout << "Word: ";
-    getline(cin, word);
-    word = lowerCase(trim(word));
-
-    if (word.empty()) {
-        cout << "No word entered. Entry not added.\n";
-        return;
-    }
+    getline(cin, e.word);
+    e.word = lower(trim(e.word));
 
     cout << "Meaning: ";
-    getline(cin, meaning);
-    meaning = trim(meaning);
+    getline(cin, e.meaning);
+    e.meaning = trim(e.meaning);
 
-    cout << "Subparts, separated by commas.\n";
-    cout << "Use only words, not definitions.\n";
-    cout << "Example: geschlecht,s,verkehr\n> ";
-    getline(cin, subpartLine);
-
-    dict[word] = {meaning, splitCSV(subpartLine)};
-
-    cout << "Added: " << word << '\n';
-
-    if (saveEntryToFile(DICTIONARY_FILE, word)) {
-        cout << "Saved to " << DICTIONARY_FILE << '\n';
+    cout << "Parts (comma separated): ";
+    getline(cin, partsLine);
+    e.parts = split(partsLine, ',');
+    for (string& part : e.parts) {
+        part = lower(part);
     }
-}
 
-void menu() {
-    cout << "\nGerman Compound Analyzer\n";
-    cout << "1. Analyze word\n";
-    cout << "2. Add dictionary entry\n";
-    cout << "3. Quit\n";
-    cout << "> ";
+    dictionary[e.word] = e;
+    saveEntry(e);
+
+    cout << "Saved!\n";
 }
 
 int main() {
-    addBuiltInFallbackEntries();
+    addBuiltInWords();
 
-    if (!loadDictionary(DICTIONARY_FILE)) {
-        cout << "No dictionary.txt found. Creating starter dictionary.txt...\n";
-        createStarterDictionaryFile(DICTIONARY_FILE);
+    if (!loadDictionary(FILE_NAME)) {
+        ofstream file(FILE_NAME);
+        file << "# word|meaning|parts\n";
     }
 
     while (true) {
-        menu();
-
+        cout << "\n1. Analyze word\n2. Add entry\n3. Quit\n> ";
         string choice;
         getline(cin, choice);
-        choice = trim(choice);
 
         if (choice == "1") {
             analyzeWord();
-        }
-        else if (choice == "2") {
+        } else if (choice == "2") {
             addEntry();
-        }
-        else if (choice == "3") {
-            cout << "Tschüss, Wörterzerleger.\n";
+        } else if (choice == "3") {
             break;
-        }
-        else {
+        } else {
             cout << "Unknown option.\n";
         }
     }
